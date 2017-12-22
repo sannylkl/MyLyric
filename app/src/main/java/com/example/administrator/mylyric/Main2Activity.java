@@ -102,7 +102,6 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         lyricView.setLineSpace(PreferenceUtil.getInstance(Main2Activity.this).getFloat(PreferenceUtil.KEY_TEXT_SIZE, 12.0f));
         lyricView.setTextSize(PreferenceUtil.getInstance(Main2Activity.this).getFloat(PreferenceUtil.KEY_TEXT_SIZE, 15.0f));
         lyricView.setHighLightTextColor(PreferenceUtil.getInstance(Main2Activity.this).getInt(PreferenceUtil.KEY_HIGHLIGHT_COLOR, Color.parseColor("#4FC5C7")));
-
     }
 
     private void initAllDatum() {
